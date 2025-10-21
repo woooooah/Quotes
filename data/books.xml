@@ -1,6 +1,8 @@
+<!-- <?xml version="1.0" encoding="UTF-8"?> -->
+<books>
 <book id="b1">
   <authorId>a1</authorId> 
-  <title>Harry Potter and the Philosopher's Stone</title>
+  <title>Harry Potter and the Philosopher&apos;s Stone</title>
   <publisher>Bloomsbury Pub Limited</publisher>
   <publishedDate></publishedDate>
   <pageCount>223</pageCount>
@@ -11,7 +13,7 @@
 <book id="b2">
   <authorId>a3</authorId> 
   <title>The Hobbit</title>
-  <publisher>George Allen & Unwin</publisher>
+  <publisher>George Allen &amp; Unwin</publisher>
   <publishedDate>1937</publishedDate>
   <pageCount>310</pageCount>
   <language>en</language>
@@ -21,7 +23,7 @@
 <book id="b3">
   <authorId>a7</authorId> 
   <title>The Picture of Dorian Gray</title>
-  <publisher>Lippincott's Monthly Magazine</publisher>
+  <publisher>Lippincott&apos;s Monthly Magazine</publisher>
   <publishedDate>1890</publishedDate>
   <pageCount>254</pageCount>
   <language>en</language>
@@ -41,7 +43,7 @@
 <book id="b5">
   <authorId>a14</authorId> 
   <title>1984</title>
-  <publisher>Secker & Warburg</publisher>
+  <publisher>Secker &amp; Warburg</publisher>
   <publishedDate>1949</publishedDate>
   <pageCount>328</pageCount>
   <language>en</language>
@@ -51,7 +53,7 @@
 <book id="b6">
   <authorId>a12</authorId> 
   <title>The Old Man and the Sea</title>
-  <publisher>Charles Scribner's Sons</publisher>
+  <publisher>Charles Scribner&apos;s Sons</publisher>
   <publishedDate>1952</publishedDate>
   <pageCount>127</pageCount>
   <language>en</language>
@@ -61,7 +63,7 @@
 <book id="b7">
   <authorId>a10</authorId> 
   <title>A Tale of Two Cities</title>
-  <publisher>Chapman & Hall</publisher>
+  <publisher>Chapman &amp; Hall</publisher>
   <publishedDate>1859</publishedDate>
   <pageCount>489</pageCount>
   <language>en</language>
@@ -111,7 +113,7 @@
 <book id="b12">
   <authorId>a13</authorId> 
   <title>The Great Gatsby</title>
-  <publisher>Charles Scribner's Sons</publisher>
+  <publisher>Charles Scribner&apos;s Sons</publisher>
   <publishedDate>1925</publishedDate>
   <pageCount>180</pageCount>
   <language>en</language>
@@ -131,7 +133,7 @@
 <book id="b14">
   <authorId>a14</authorId> 
   <title>Animal Farm</title>
-  <publisher>Secker & Warburg</publisher>
+  <publisher>Secker &amp; Warburg</publisher>
   <publishedDate>1945</publishedDate>
   <pageCount>112</pageCount>
   <language>en</language>
@@ -141,9 +143,10 @@
 <book id="b15">
   <authorId>a3</authorId> 
   <title>The Lord of the Rings</title>
-  <publisher>George Allen & Unwin</publisher>
+  <publisher>George Allen &amp; Unwin</publisher>
   <publishedDate>1954</publishedDate>
   <pageCount>1178</pageCount>
   <language>en</language>
   <averageRating>4.9</averageRating>
 </book>
+</books>

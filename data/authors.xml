@@ -1,69 +1,71 @@
-<author id="a1">
-  <name>J.K.Rowlnig</name>
-  <authorSlug></authorSlug>
-</author>
+<authors>
+  <author id="a1">
+    <name>J.K.Rowlnig</name>
+    <authorSlug></authorSlug>
+  </author>
 
-<author id="a2">
-  <name>Marcus Aurelius</name>
-  <authorSlug>marcus-aurelius</authorSlug>
-</author>
+  <author id="a2">
+    <name>Marcus Aurelius</name>
+    <authorSlug>marcus-aurelius</authorSlug>
+  </author>
 
-<author id="a3">
-  <name>J.R.R. Tolkien</name>
-  <authorSlug>j-r-r-tolkien</authorSlug>
-</author>
+  <author id="a3">
+    <name>J.R.R. Tolkien</name>
+    <authorSlug>j-r-r-tolkien</authorSlug>
+  </author>
 
-<author id="a4">
-  <name>Albert Einstein</name>
-  <authorSlug>albert-einstein</authorSlug>
-</author>
+  <author id="a4">
+    <name>Albert Einstein</name>
+    <authorSlug>albert-einstein</authorSlug>
+  </author>
 
-<author id="a5">
-  <name>Isaac Newton</name>
-  <authorSlug>isaac-newton</authorSlug>
-</author>
+  <author id="a5">
+    <name>Isaac Newton</name>
+    <authorSlug>isaac-newton</authorSlug>
+  </author>
 
-<author id="a7">
-  <name>Oscar Wilde</name>
-  <authorSlug>oscar-wilde</authorSlug>
-</author>
+  <author id="a7">
+    <name>Oscar Wilde</name>
+    <authorSlug>oscar-wilde</authorSlug>
+  </author>
 
-<author id="a8">
-  <name>Mark Twain</name>
-  <authorSlug>mark-twain</authorSlug>
-</author>
+  <author id="a8">
+    <name>Mark Twain</name>
+    <authorSlug>mark-twain</authorSlug>
+  </author>
 
-<author id="a9">
-  <name>Jane Austen</name>
-  <authorSlug>jane-austen</authorSlug>
-</author>
+  <author id="a9">
+    <name>Jane Austen</name>
+    <authorSlug>jane-austen</authorSlug>
+  </author>
 
-<author id="a10">
-  <name>Charles Dickens</name>
-  <authorSlug>charles-dickens</authorSlug>
-</author>
+  <author id="a10">
+    <name>Charles Dickens</name>
+    <authorSlug>charles-dickens</authorSlug>
+  </author>
 
-<author id="a11">
-  <name>Virginia Woolf</name>
-  <authorSlug>virginia-woolf</authorSlug>
-</author>
+  <author id="a11">
+    <name>Virginia Woolf</name>
+    <authorSlug>virginia-woolf</authorSlug>
+  </author>
 
-<author id="a12">
-  <name>Ernest Hemingway</name>                     
-  <authorSlug>ernest-hemingway</authorSlug>
-</author>
+  <author id="a12">
+    <name>Ernest Hemingway</name>                     
+    <authorSlug>ernest-hemingway</authorSlug>
+  </author>
 
-<author id="a13">
-  <name>F. Scott Fitzgerald</name>
-  <authorSlug>f-scott-fitzgerald</authorSlug>
-</author>
+  <author id="a13">
+    <name>F. Scott Fitzgerald</name>
+    <authorSlug>f-scott-fitzgerald</authorSlug>
+  </author>
 
-<author id="a14">
-  <name>George Orwell</name>
-  <authorSlug>george-orwell</authorSlug>
-</author>
+  <author id="a14">
+    <name>George Orwell</name>
+    <authorSlug>george-orwell</authorSlug>
+  </author>
 
-<author id="a15">
-  <name>Leo Tolstoy</name>
-  <authorSlug>leo-tolstoy</authorSlug>
-</author>
+  <author id="a15">
+    <name>Leo Tolstoy</name>
+    <authorSlug>leo-tolstoy</authorSlug>
+  </author>
+</authors>
