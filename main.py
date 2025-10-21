@@ -81,6 +81,59 @@ def save_json(data, filename):
     
     print(f"Saved {filename} to {FILTERED_DIR}/")
 
+# --------- SHRANI xml ---------
+
+
+    # --------- dodava indent xmlu, da je format lepsi ---------
+def indent_xml(elem, level=0):
+    """
+    Recursively adds indentation to an XML element for pretty printing.
+    """
+    i = "\n" + level*"  "
+    if len(elem):
+        if not elem.text or not elem.text.strip():
+            elem.text = i + "  "
+        for child in elem:
+            indent_xml(child, level+1)
+        if not elem.tail or not elem.tail.strip():
+            elem.tail = i
+    else:
+        if level and (not elem.tail or not elem.tail.strip()):
+            elem.tail = i
+
+
+
+FILTERED_XML_DIR = 'filtered_xml'
+
+def save_filtered_xml(data, root_tag, item_tag, filename):
+    os.makedirs(FILTERED_XML_DIR, exist_ok=True)
+
+    root = ET.Element(root_tag)
+
+    for item in data:
+        elem = ET.SubElement(root, item_tag, id=item.get('id', ''))
+
+        for key, value in item.items():
+            if key == 'id':
+                continue
+            if isinstance(value, dict):
+                sub_elem = ET.SubElement(elem, key)
+                for sub_key, sub_val in value.items():
+                    child = ET.SubElement(sub_elem, sub_key)
+                    child.text = str(sub_val) if sub_val is not None else ""
+
+            else:
+                child = ET.SubElement(elem, key)
+                child.text = str(value)
+        
+        indent_xml(root)
+
+        tree = ET.ElementTree(root)
+        filepath = os.path.join(FILTERED_XML_DIR, filename)
+        tree.write(filepath, encoding='utf-8', xml_declaration=True)
+        print(f"Saved {filename} to {FILTERED_XML_DIR}/")
+
+
 # --------- MAIN ---------
 def main():
     authors = parse_authors(read_xml('authors.xml'))
@@ -110,6 +163,10 @@ def main():
     save_json(filtered_quotes, 'filtrirano_quotes.json')
     print()
     print("Filtered results saved to JSON!")
+
+    save_filtered_xml(filtered_books, root_tag='books', item_tag='book', filename='filtrirano_books.xml')
+    save_filtered_xml(filtered_quotes, root_tag='quotes', item_tag='quote', filename='filtrirano_quotes.xml')
+
 
 if __name__ == "__main__":
     main()

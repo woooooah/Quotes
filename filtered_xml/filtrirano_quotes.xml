@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<quotes>
+  <quote id="q1">
+    <authorId>a2</authorId>
+    <content>Waste no more time arguing about what a good man should be. Be one.</content>
+    <tags>Famous Quotes</tags>
+    <length>122</length>
+    <dateAdded>2019-02-17</dateAdded>
+    <author>
+      <id>a2</id>
+      <name>Marcus Aurelius</name>
+      <authorSlug>marcus-aurelius</authorSlug>
+      </author>
+    </quote>
+  <quote id="q3">
+    <authorId>a4</authorId>
+    <content>Life is like riding a bicycle. To keep your balance you must keep moving.</content>
+    <tags>Famous Quotes</tags>
+    <length>76</length>
+    <dateAdded>2019-02-17</dateAdded>
+    <author>
+      <id>a4</id>
+      <name>Albert Einstein</name>
+      <authorSlug>albert-einstein</authorSlug>
+      </author>
+    </quote>
+  <quote id="q4">
+    <authorId>a5</authorId>
+    <content>If I have seen further it is by standing on the shoulders of Giants.</content>
+    <tags>Famous Quotes</tags>
+    <length>76</length>
+    <dateAdded>2019-02-17</dateAdded>
+    <author>
+      <id>a5</id>
+      <name>Isaac Newton</name>
+      <authorSlug>isaac-newton</authorSlug>
+      </author>
+    </quote>
+  <quote id="q7">
+    <authorId>a9</authorId>
+    <content>It isn't what we say or think that defines us, but what we do.</content>
+    <tags>Famous Quotes</tags>
+    <length>70</length>
+    <dateAdded>2019-02-17</dateAdded>
+    <author>
+      <id>a9</id>
+      <name>Jane Austen</name>
+      <authorSlug>jane-austen</authorSlug>
+      </author>
+    </quote>
+  <quote id="q11">
+    <authorId>a13</authorId>
+    <content>So we beat on, boats against the current, borne back ceaselessly into the past.</content>
+    <tags>Famous Quotes</tags>
+    <length>83</length>
+    <dateAdded>2019-02-17</dateAdded>
+    <author>
+      <id>a13</id>
+      <name>F. Scott Fitzgerald</name>
+      <authorSlug>f-scott-fitzgerald</authorSlug>
+      </author>
+    </quote>
+  <quote id="q14">
+    <authorId>a1</authorId>
+    <content>Happiness is not something ready made. It comes from your own actions.</content>
+    <tags>Famous Quotes</tags>
+    <length>75</length>
+    <dateAdded>2024-06-10</dateAdded>
+    <author>
+      <id>a1</id>
+      <name>J.K.Rowlnig</name>
+      <authorSlug />
+      </author>
+    </quote>
+  <quote id="q15">
+    <authorId>a1</authorId>
+    <content>You are never too old to set another goal or to dream a new dream.</content>
+    <tags>Famous Quotes</tags>
+    <length>73</length>
+    <dateAdded>2024-06-10</dateAdded>
+    <author>
+      <id>a1</id>
+      <name>J.K.Rowlnig</name>
+      <authorSlug />
+      </author>
+    </quote>
+  </quotes>
