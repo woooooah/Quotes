@@ -1,0 +1,167 @@
+[
+    {
+        "id": "b1",
+        "authorId": "a1",
+        "title": "Harry Potter and the Philosopher's Stone",
+        "publisher": "Bloomsbury Pub Limited",
+        "publishedDate": "",
+        "pageCount": 223,
+        "language": "en",
+        "averageRating": 4.5,
+        "author": {
+            "id": "a1",
+            "name": "J.K.Rowlnig",
+            "authorSlug": ""
+        }
+    },
+    {
+        "id": "b2",
+        "authorId": "a3",
+        "title": "The Hobbit",
+        "publisher": "George Allen & Unwin",
+        "publishedDate": "1937",
+        "pageCount": 310,
+        "language": "en",
+        "averageRating": 4.7,
+        "author": {
+            "id": "a3",
+            "name": "J.R.R. Tolkien",
+            "authorSlug": "j-r-r-tolkien"
+        }
+    },
+    {
+        "id": "b3",
+        "authorId": "a7",
+        "title": "The Picture of Dorian Gray",
+        "publisher": "Lippincott's Monthly Magazine",
+        "publishedDate": "1890",
+        "pageCount": 254,
+        "language": "en",
+        "averageRating": 4.3,
+        "author": {
+            "id": "a7",
+            "name": "Oscar Wilde",
+            "authorSlug": "oscar-wilde"
+        }
+    },
+    {
+        "id": "b4",
+        "authorId": "a9",
+        "title": "Pride and Prejudice",
+        "publisher": "T. Egerton, Whitehall",
+        "publishedDate": "1813",
+        "pageCount": 279,
+        "language": "en",
+        "averageRating": 4.6,
+        "author": {
+            "id": "a9",
+            "name": "Jane Austen",
+            "authorSlug": "jane-austen"
+        }
+    },
+    {
+        "id": "b5",
+        "authorId": "a14",
+        "title": "1984",
+        "publisher": "Secker & Warburg",
+        "publishedDate": "1949",
+        "pageCount": 328,
+        "language": "en",
+        "averageRating": 4.4,
+        "author": {
+            "id": "a14",
+            "name": "George Orwell",
+            "authorSlug": "george-orwell"
+        }
+    },
+    {
+        "id": "b9",
+        "authorId": "a5",
+        "title": "Philosophiæ Naturalis Principia Mathematica",
+        "publisher": "Royal Society",
+        "publishedDate": "1687",
+        "pageCount": 500,
+        "language": "la",
+        "averageRating": 4.5,
+        "author": {
+            "id": "a5",
+            "name": "Isaac Newton",
+            "authorSlug": "isaac-newton"
+        }
+    },
+    {
+        "id": "b10",
+        "authorId": "a8",
+        "title": "The Adventures of Tom Sawyer",
+        "publisher": "American Publishing Company",
+        "publishedDate": "1876",
+        "pageCount": 274,
+        "language": "en",
+        "averageRating": 4.3,
+        "author": {
+            "id": "a8",
+            "name": "Mark Twain",
+            "authorSlug": "mark-twain"
+        }
+    },
+    {
+        "id": "b12",
+        "authorId": "a13",
+        "title": "The Great Gatsby",
+        "publisher": "Charles Scribner's Sons",
+        "publishedDate": "1925",
+        "pageCount": 180,
+        "language": "en",
+        "averageRating": 4.4,
+        "author": {
+            "id": "a13",
+            "name": "F. Scott Fitzgerald",
+            "authorSlug": "f-scott-fitzgerald"
+        }
+    },
+    {
+        "id": "b13",
+        "authorId": "a2",
+        "title": "Meditations",
+        "publisher": "Penguin Classics",
+        "publishedDate": "180",
+        "pageCount": 304,
+        "language": "en",
+        "averageRating": 4.6,
+        "author": {
+            "id": "a2",
+            "name": "Marcus Aurelius",
+            "authorSlug": "marcus-aurelius"
+        }
+    },
+    {
+        "id": "b14",
+        "authorId": "a14",
+        "title": "Animal Farm",
+        "publisher": "Secker & Warburg",
+        "publishedDate": "1945",
+        "pageCount": 112,
+        "language": "en",
+        "averageRating": 4.5,
+        "author": {
+            "id": "a14",
+            "name": "George Orwell",
+            "authorSlug": "george-orwell"
+        }
+    },
+    {
+        "id": "b15",
+        "authorId": "a3",
+        "title": "The Lord of the Rings",
+        "publisher": "George Allen & Unwin",
+        "publishedDate": "1954",
+        "pageCount": 1178,
+        "language": "en",
+        "averageRating": 4.9,
+        "author": {
+            "id": "a3",
+            "name": "J.R.R. Tolkien",
+            "authorSlug": "j-r-r-tolkien"
+        }
+    }
+]

@@ -1,6 +1,7 @@
 import xml.etree.ElementTree as ET
 import os
 import pprint
+import json
 
 DATA_DIR = 'data'
 
@@ -66,6 +67,20 @@ def filter_books(books, min_rating=0):
 def filter_quotes(quotes, min_length=0):
     return [quote for quote in quotes if quote['length'] >= min_length]
 
+
+# --------- SHRANI json ---------
+FILTERED_DIR = 'filtered_json'
+
+def save_json(data, filename):
+    os.makedirs(FILTERED_DIR, exist_ok=True)
+
+    filepath = os.path.join(FILTERED_DIR, filename)
+
+    with open(filepath, 'w', encoding='utf-8') as f:
+        json.dump(data, f, ensure_ascii=False, indent=4)
+    
+    print(f"Saved {filename} to {FILTERED_DIR}/")
+
 # --------- MAIN ---------
 def main():
     authors = parse_authors(read_xml('authors.xml'))
@@ -90,6 +105,11 @@ def main():
     print("\n---------Filtered Quotes:---------")
     print()
     pprint.pprint(filtered_quotes)
+
+    save_json(filtered_books, 'filtrirano_books.json')
+    save_json(filtered_quotes, 'filtrirano_quotes.json')
+    print()
+    print("Filtered results saved to JSON!")
 
 if __name__ == "__main__":
     main()
