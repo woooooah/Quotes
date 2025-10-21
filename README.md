@@ -1,1 +1,1 @@
-# Quotes
+# Quotes app
