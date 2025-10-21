@@ -1,0 +1,149 @@
+<book id="b1">
+  <authorId>a1</authorId> 
+  <title>Harry Potter and the Philosopher's Stone</title>
+  <publisher>Bloomsbury Pub Limited</publisher>
+  <publishedDate></publishedDate>
+  <pageCount>223</pageCount>
+  <language>en</language>
+  <averageRating>4.5</averageRating>
+</book>
+
+<book id="b2">
+  <authorId>a3</authorId> 
+  <title>The Hobbit</title>
+  <publisher>George Allen & Unwin</publisher>
+  <publishedDate>1937</publishedDate>
+  <pageCount>310</pageCount>
+  <language>en</language>
+  <averageRating>4.7</averageRating>
+</book>
+
+<book id="b3">
+  <authorId>a7</authorId> 
+  <title>The Picture of Dorian Gray</title>
+  <publisher>Lippincott's Monthly Magazine</publisher>
+  <publishedDate>1890</publishedDate>
+  <pageCount>254</pageCount>
+  <language>en</language>
+  <averageRating>4.3</averageRating>
+</book> 
+
+<book id="b4">
+  <authorId>a9</authorId> 
+  <title>Pride and Prejudice</title>
+  <publisher>T. Egerton, Whitehall</publisher>
+  <publishedDate>1813</publishedDate>
+  <pageCount>279</pageCount>
+  <language>en</language>
+  <averageRating>4.6</averageRating>
+</book>
+
+<book id="b5">
+  <authorId>a14</authorId> 
+  <title>1984</title>
+  <publisher>Secker & Warburg</publisher>
+  <publishedDate>1949</publishedDate>
+  <pageCount>328</pageCount>
+  <language>en</language>
+  <averageRating>4.4</averageRating>
+</book>
+
+<book id="b6">
+  <authorId>a12</authorId> 
+  <title>The Old Man and the Sea</title>
+  <publisher>Charles Scribner's Sons</publisher>
+  <publishedDate>1952</publishedDate>
+  <pageCount>127</pageCount>
+  <language>en</language>
+  <averageRating>4.2</averageRating>
+</book> 
+
+<book id="b7">
+  <authorId>a10</authorId> 
+  <title>A Tale of Two Cities</title>
+  <publisher>Chapman & Hall</publisher>
+  <publishedDate>1859</publishedDate>
+  <pageCount>489</pageCount>
+  <language>en</language>
+  <averageRating>4.1</averageRating>
+</book>     
+
+<book id="b8">
+  <authorId>a4</authorId> 
+  <title>Relativity: The Special and the General Theory</title>
+  <publisher>Henry Holt and Company</publisher>
+  <publishedDate>1916</publishedDate>
+  <pageCount>168</pageCount>
+  <language></language>
+  <averageRating>4.0</averageRating>
+</book>
+ 
+<book id="b9">
+  <authorId>a5</authorId> 
+  <title>Philosophiæ Naturalis Principia Mathematica</title>
+  <publisher>Royal Society</publisher>
+  <publishedDate>1687</publishedDate>
+  <pageCount>500</pageCount>
+  <language>la</language>
+  <averageRating>4.5</averageRating>
+</book> 
+
+<book id="b10">
+  <authorId>a8</authorId> 
+  <title>The Adventures of Tom Sawyer</title>
+  <publisher>American Publishing Company</publisher>
+  <publishedDate>1876</publishedDate>
+  <pageCount>274</pageCount>
+  <language>en</language>
+  <averageRating>4.3</averageRating>
+</book>     
+
+<book id="b11">
+  <authorId>a11</authorId> 
+  <title>Mrs Dalloway</title>
+  <publisher>Hogarth Press</publisher>
+  <publishedDate>1925</publishedDate>
+  <pageCount>194</pageCount>
+  <language>en</language>
+  <averageRating>4.2</averageRating>
+</book>
+
+<book id="b12">
+  <authorId>a13</authorId> 
+  <title>The Great Gatsby</title>
+  <publisher>Charles Scribner's Sons</publisher>
+  <publishedDate>1925</publishedDate>
+  <pageCount>180</pageCount>
+  <language>en</language>
+  <averageRating>4.4</averageRating>
+</book>
+
+<book id="b13">
+  <authorId>a2</authorId> 
+  <title>Meditations</title>
+  <publisher>Penguin Classics</publisher>
+  <publishedDate>180</publishedDate>
+  <pageCount>304</pageCount>
+  <language>en</language>
+  <averageRating>4.6</averageRating>
+</book> 
+
+<book id="b14">
+  <authorId>a14</authorId> 
+  <title>Animal Farm</title>
+  <publisher>Secker & Warburg</publisher>
+  <publishedDate>1945</publishedDate>
+  <pageCount>112</pageCount>
+  <language>en</language>
+  <averageRating>4.5</averageRating>
+</book>     
+
+<book id="b15">
+  <authorId>a3</authorId> 
+  <title>The Lord of the Rings</title>
+  <publisher>George Allen & Unwin</publisher>
+  <publishedDate>1954</publishedDate>
+  <pageCount>1178</pageCount>
+  <language>en</language>
+  <averageRating>4.9</averageRating>
+</book>
