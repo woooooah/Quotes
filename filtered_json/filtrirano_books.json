@@ -1,20 +1,5 @@
 [
     {
-        "id": "b2",
-        "authorId": "a3",
-        "title": "The Hobbit",
-        "publisher": "George Allen & Unwin",
-        "publishedDate": "1937",
-        "pageCount": 310,
-        "language": "en",
-        "averageRating": 4.7,
-        "author": {
-            "id": "a3",
-            "name": "J.R.R. Tolkien",
-            "authorSlug": "j-r-r-tolkien"
-        }
-    },
-    {
         "id": "b15",
         "authorId": "a3",
         "title": "The Lord of the Rings",

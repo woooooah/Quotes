@@ -60,6 +60,30 @@
       <authorSlug>f-scott-fitzgerald</authorSlug>
       </author>
     </quote>
+  <quote id="q12">
+    <authorId>a14</authorId>
+    <content>War is peace. Freedom is slavery. Ignorance is strength.</content>
+    <tags>Famous Quotes</tags>
+    <length>61</length>
+    <dateAdded>2019-02-17</dateAdded>
+    <author>
+      <id>a14</id>
+      <name>George Orwell</name>
+      <authorSlug>george-orwell</authorSlug>
+      </author>
+    </quote>
+  <quote id="q13">
+    <authorId>a1</authorId>
+    <content>It does not matter how slowly you go as long as you do not stop.</content>
+    <tags>Famous Quotes</tags>
+    <length>65</length>
+    <dateAdded>2024-06-10</dateAdded>
+    <author>
+      <id>a1</id>
+      <name>J.K.Rowlnig</name>
+      <authorSlug />
+      </author>
+    </quote>
   <quote id="q14">
     <authorId>a1</authorId>
     <content>Happiness is not something ready made. It comes from your own actions.</content>

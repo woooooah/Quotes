@@ -86,9 +86,6 @@ def save_json(data, filename):
 
     # --------- dodava indent xmlu, da je format lepsi ---------
 def indent_xml(elem, level=0):
-    """
-    Recursively adds indentation to an XML element for pretty printing.
-    """
     i = "\n" + level*"  "
     if len(elem):
         if not elem.text or not elem.text.strip():
@@ -131,7 +128,7 @@ def save_filtered_xml(data, root_tag, item_tag, filename):
         tree = ET.ElementTree(root)
         filepath = os.path.join(FILTERED_XML_DIR, filename)
         tree.write(filepath, encoding='utf-8', xml_declaration=True)
-        print(f"Saved {filename} to {FILTERED_XML_DIR}/")
+    print(f"Saved {filename} to {FILTERED_XML_DIR}/")
 
 
 # --------- MAIN ---------
@@ -162,7 +159,7 @@ def main():
     save_json(filtered_books, 'filtrirano_books.json')
     save_json(filtered_quotes, 'filtrirano_quotes.json')
     print()
-    print("Filtered results saved to JSON!")
+    # print("Filtered results saved to JSON!")
 
     save_filtered_xml(filtered_books, root_tag='books', item_tag='book', filename='filtrirano_books.xml')
     save_filtered_xml(filtered_quotes, root_tag='quotes', item_tag='quote', filename='filtrirano_quotes.xml')

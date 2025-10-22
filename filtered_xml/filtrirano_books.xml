@@ -1,19 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
 <books>
-  <book id="b2">
-    <authorId>a3</authorId>
-    <title>The Hobbit</title>
-    <publisher>George Allen &amp; Unwin</publisher>
-    <publishedDate>1937</publishedDate>
-    <pageCount>310</pageCount>
-    <language>en</language>
-    <averageRating>4.7</averageRating>
-    <author>
-      <id>a3</id>
-      <name>J.R.R. Tolkien</name>
-      <authorSlug>j-r-r-tolkien</authorSlug>
-      </author>
-    </book>
   <book id="b15">
     <authorId>a3</authorId>
     <title>The Lord of the Rings</title>
